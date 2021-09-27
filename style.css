@@ -26,12 +26,12 @@ ul li {
 }
 
 .item-title {
-  display: block;
+ display: block;
   width: 100%;
   text-align: left;
   font-weight: bold;
   font-size: 1.5em;
-  color: #333;
+  color: palevioletred;
   margin-bottom: 15px;
 }
 
@@ -48,7 +48,7 @@ ul li {
 .item-price {
   flex-grow: 1;
   display: block;
-  color: #333;
+  color: lightseagreen;
 }
 
 .items {
