@@ -1,0 +1,126 @@
+.main-header {
+  background-color: darkcyan;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 1px burlywood;
+  height: 30px;
+}
+
+ul {
+  float: left;
+  color: yellow;
+}
+ul li {
+  margin-top: -10px;
+  float: left;
+  position: relative;
+  left: 300%;
+  width: 100px;
+  font-size: 14px;
+  font-family: barlow condensed, sans-serif;
+  list-style-type: none;
+}
+
+.item {
+  margin: 30px;
+}
+
+.item-title {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.item-image {
+  height: 250px;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.item-price {
+  flex-grow: 1;
+  display: block;
+  color: #333;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #56ccf2;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+
+.brand-name {
+  text-align: left;
+  margin: 0;
+  font-size: 3em;
+  font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: white;
+}
+.free-shipping {
+  margin: left 1px;
+  margin: 1px 12px;
+  font-size: 14px;
+  font-family: barlow condensed, sans- serif;
+  font-weight: normal;
+  color: rgb(221, 28, 108);
+  position: normal;
+  left: -18px;
+  text-transform: uppercase;
+}
+.subbox {
+  border: 1px solid transparent;
+  background-color: #f3d1d6;
+  height: 50px;
+}
+ol {
+  float: left;
+}
+ol li {
+  float: left;
+  font-size: 14px;
+  font-family: barlow condensed, sans- serif;
+  font-style: bold;
+  width: 100px;
+  position: relative;
+  left: 100px;
+  list-style-type: none;
+  font-size: 14px;
+  font-family: barlow condensed, sans- serif;
+  margin-top: 12px;
+}
+ol li a {
+  text-decoration: none;
+  color: cadetblue;
+  font: 100s;
+}
+ol li a:hover {
+  border-bottom: 4px solid palevioletred;
+}
+
+.about-footer {
+  background-color: #56ccf2;
+  color: white;
+  padding: 0.25em 0;
+}
+
+.about-footer-container {
+  display: flex;
+  align-items: center;
+}
